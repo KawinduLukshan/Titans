@@ -13,10 +13,10 @@ public class Main33Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main33);
     }
     
-//medicine
+//medicine button
         public void medicine1(View view){ startActivity(new Intent(this,MainActivity.class  )); 
                                          
-//lab                                         
+//lab button                                        
         public void lab1(View view){ startActivity(new Intent(this,MainActivity22.class  )); }
                                          
 }
