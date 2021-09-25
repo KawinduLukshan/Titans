@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".DoctorMainActivity">
+
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/edittext_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Hospital" />
+
+    <EditText
+        android:id="@+id/edittext_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Specialization" />
+
+    <EditText
+        android:id="@+id/edittext_contactnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Contactnumber" />
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_add"
+        android:text="Add Doctor"
+        android:background="#388E3C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0288D1"
+        android:text="View Doctor"
+        android:textStyle="bold" />
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/back"
+        android:text="BACK"
+        android:onClick="openMain18"
+        android:background="#388E3C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="297dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/doctor" />
+
+</LinearLayout>
