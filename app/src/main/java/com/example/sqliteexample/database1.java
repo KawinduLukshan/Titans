@@ -11,6 +11,9 @@ import java.util.List;
 public class database1 extends SQLiteOpenHelper {
 
     
+//SQLite
+//database
+    
    //Database version
     private static final int DATABASE_VERSION = 5;
     
@@ -85,7 +88,6 @@ public class database1 extends SQLiteOpenHelper {
         return storePharmacy;
     }
 
-    
     public void updatePharmacy(PharmacyModelClass pharmacyModelClass){
         ContentValues contentValues = new ContentValues();
         contentValues.put(database1.Name,pharmacyModelClass.getpName());
@@ -104,5 +106,4 @@ public class database1 extends SQLiteOpenHelper {
         sqLiteDatabase.delete(TABLE_NAME, ID + " = ? ", new String[]
                 {String.valueOf(id)});
     }
-
 }
