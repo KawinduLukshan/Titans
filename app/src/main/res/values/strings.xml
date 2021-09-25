@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">SQLiteExample</string>
-    <string name="echannelling">eChannelling</string>
+    <string name="app_name">DoctorManagement</string>
+    <string name="btn1" />
+    <string name="Button" />
+
+
+
+
 </resources>
