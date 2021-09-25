@@ -1,4 +1,5 @@
 package com.example.sqliteexample;
+
 //PharmacyAdapterClass
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
