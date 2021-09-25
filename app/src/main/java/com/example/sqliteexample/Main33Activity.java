@@ -1,7 +1,6 @@
 package com.example.sqliteexample;
-//new
-import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.view.View;
 import android.os.Bundle;
@@ -13,7 +12,11 @@ public class Main33Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main33);
     }
-
-        public void medicine1(View view){ startActivity(new Intent(this,MainActivity.class  )); }
+    
+//medicine
+        public void medicine1(View view){ startActivity(new Intent(this,MainActivity.class  )); 
+                                         
+//lab                                         
         public void lab1(View view){ startActivity(new Intent(this,MainActivity22.class  )); }
+                                         
 }
