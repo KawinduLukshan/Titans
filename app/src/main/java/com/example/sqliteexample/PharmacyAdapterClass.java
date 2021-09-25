@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,6 +35,8 @@ public class PharmacyAdapterClass extends RecyclerView.Adapter<PharmacyAdapterCl
         return viewHolder;
     }
 
+//update   
+//delete
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         final PharmacyModelClass pharmacyModelClass = pharmacy.get(position);
@@ -93,7 +94,7 @@ public class PharmacyAdapterClass extends RecyclerView.Adapter<PharmacyAdapterCl
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-//
+
             textViewID = itemView.findViewById(R.id.text_id);
             editText_pName = itemView.findViewById(R.id.edittext_Name);
             editText_pAddress = itemView.findViewById(R.id.edittext_Address);
