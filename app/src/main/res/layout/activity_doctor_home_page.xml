@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Doctor_Home_Page">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="508dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="openMain5"
+        android:text="BACK"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#0337F4"
+        android:onClick="openMain6"
+        android:text="DOCTOR DETAILS"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="384dp"
+        android:backgroundTint="#0337F4"
+        android:text="DOCTOR SCHEDULE"
+        android:onClick="openMain31"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#0337F4"
+        android:text="LEVELS OF DOCTORS"
+        android:onClick="openMain15"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
