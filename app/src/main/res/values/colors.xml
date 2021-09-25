@@ -7,5 +7,29 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name ="colorGreen">#03DAC5</color>
+    <color name="button16">#03A9F4</color>
+    <color name="txt37">#3F51B5</color>
+    <color name="button12">#03A9F4</color>
+    <color name="button13">#03A9F4</color>
+    <color name="txt31">#3F51B5</color>
+    <color name="txt32">#0E0E0E</color>
+    <color name="txt33">#0E0E0E</color>
+    <color name="button9">#03A9F4</color>
+    <color name="txt7">#D7D8D8</color>
+    <color name="txt10">#D7D8D8</color>
+    <color name="edit8">#D7D8D8</color>
+    <color name="edit11">#D7D8D8</color>
+    <color name="edit9">#D7D8D8</color>
+    <color name="edit12">#D7D8D8</color>
+    <color name="txt1">#D7D8D8</color>
+    <color name="button1">#03A9F4</color>
+    <color name="button4">#03A9F4</color>
+    <color name="button2">#03A9F4</color>
+    <color name="button3">#03A9F4</color>
+    <color name="button5">#2196F3</color>
+    <color name="button6">#2196F3</color>
+    <color name="button7">#2196F3</color>
+    <color name="button8">#2196F3</color>
+    <color name="txt5">#3F51B5</color>
+
 </resources>
