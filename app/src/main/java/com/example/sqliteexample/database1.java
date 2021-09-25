@@ -1,24 +1,26 @@
 package com.example.sqliteexample;
 
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class database1 extends SQLiteOpenHelper {
 
-    //Database version
+    
+   //Database version
     private static final int DATABASE_VERSION = 5;
-    //Database Name
+    
+   //Database Name
     private static final String DATABASE_NAME = "pharmacy_database";
-    //Database Table name
+    
+   //Database Name
     private static final String TABLE_NAME = "pharmacy";
-    //Table columns
+    
+   //Table columns
     public static final String ID = "id";
     public static final String Name = "p_Name";
     public static final String Address = "p_Address";
@@ -27,10 +29,12 @@ public class database1 extends SQLiteOpenHelper {
     public static final String PrescriptionName = "p_PrescriptionName";
     private SQLiteDatabase sqLiteDatabase;
 
+    
     //PharmacyModelClass
     //creating table query
     private static final String CREATE_TABLE = "create table " + TABLE_NAME +"("+ID+
             " INTEGER PRIMARY KEY AUTOINCREMENT," + Name + " TEXT NOT NULL,"+Address+" TEXT NOT NULL,"+Mobile+" TEXT NOT NULL,"+PharmacyName+" TEXT NOT NULL,"+PrescriptionName+" TEXT NOT NULL);";
+    
     //Constructor
     public database1 (Context context){
         super(context,DATABASE_NAME,null,DATABASE_VERSION);
@@ -47,7 +51,8 @@ public class database1 extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    //Add  Data
+    
+   //Add  Data
     public void addPharmacy(PharmacyModelClass pharmacyModelClass){
         ContentValues contentValues = new ContentValues();
         contentValues.put(database1.Name, pharmacyModelClass.getpName());
@@ -59,6 +64,7 @@ public class database1 extends SQLiteOpenHelper {
         sqLiteDatabase.insert(database1.TABLE_NAME, null,contentValues);
     }
 
+    
     public List<PharmacyModelClass> getPharmacyList(){
         String sql = "select * from " + TABLE_NAME;
         sqLiteDatabase = this.getReadableDatabase();
@@ -79,6 +85,7 @@ public class database1 extends SQLiteOpenHelper {
         return storePharmacy;
     }
 
+    
     public void updatePharmacy(PharmacyModelClass pharmacyModelClass){
         ContentValues contentValues = new ContentValues();
         contentValues.put(database1.Name,pharmacyModelClass.getpName());
@@ -91,6 +98,7 @@ public class database1 extends SQLiteOpenHelper {
                 {String.valueOf(pharmacyModelClass.getId())});
     }
 
+    
     public void deletePharmacy(int id){
         sqLiteDatabase = this.getWritableDatabase();
         sqLiteDatabase.delete(TABLE_NAME, ID + " = ? ", new String[]
