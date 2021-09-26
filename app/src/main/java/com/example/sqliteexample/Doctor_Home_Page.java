@@ -14,7 +14,7 @@ public class Doctor_Home_Page extends AppCompatActivity {
         setContentView(R.layout.activity_doctor_home_page);
         getSupportActionBar().setTitle("Doctor Home Page");
     }
-
+    //button connecting
     public void openMain5(View view){
         startActivity(new Intent(this,SignIn.class  ));
     }
