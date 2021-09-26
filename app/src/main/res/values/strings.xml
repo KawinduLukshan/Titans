@@ -48,5 +48,92 @@
     <string name="button6">View doctor details</string>
     <string name="button7">Add feed back</string>
     <string name="button8">View patient profile</string>
+    
+    <string name="app_name">Echanneling_System</string>
+    <string name="sel_pname">Patient Name</string>
+    <string name="sel_age">Age of the Patient</string>
+    <string name="sel_nic">NIC No</string>
+    <string name="sel_contactno">Contact No</string>
+    <string name="bankcard_no">Card No</string>
+    <string name="cvv_no">CVV</string>
+    <string name="main_title">APPOINTMENT</string>
+    <string name="apt_btn1">Appointment to your doctor</string>
+    <string name="apt_btn2">Appointment for Lab Test</string>
+    <string name="search_abtn">Search</string>
+    <string name="sel_nextbtn">Next</string>
+    <string name="channelbtn">Channel</string>
+    <string name="pay_btn">Pay</string>
+    <string name="ca_okbtn">OK</string>
+    <string name="edit_btn">Edit</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="no_generate">NO</string>
+    <string name="ca_pname">Name</string>
+    <string name="p_age">Age</string>
+    <string name="ca_phoneno">Phone No</string>
+    <string name="ca_doctor">Doctor</string>
+    <string name="channnel_docname">Name of the Doctor</string>
+    <string name="channel_specilization">Specialization</string>
+    <string name="channel_datetime">Date And Time</string>
+    <string name="click_bookbtn">Book</string>
+    <string name="cpn_result" />
+    <string name="pa_result" />
+    <string name="pno_result" />
+    <string name="cadoctor_result" />
+    <string name="cdn_result" />
+    <string name="csp_result" />
+    <string name="cdt_result" />
+    <string name="cBox">Blood Test</string>
+    <string name="cBox2">Kidney Function Test</string>
+    <string name="cBox3">Autopsy</string>
+    <string name="cBox4">X-ray</string>
+    <string name="cBox5">Skin Test</string>
+    <string name="cBox6">Biopsy</string>
+    <string name="cBox7">Laparoscopy</string>
+    <string name="cBox8">Mammography</string>
+    <string name="cBox9">Liver Function Test</string>
+    <string name="cBox10">Scan</string>
+    <string name="cBox11">CT Scan</string>
+    <string name="cBox12">PCR</string>
+    <string name="ca_hospital">Hospital</string>
+    <string name="display_date">Date</string>
+    <string name="ahospital_result" />
+    <string name="display_dresult" />
+    <string name="cp_nic">NIC</string>
+    <string name="cpnic_result" />
+    <string name="datepicker1">Select Date</string>
+    <string name="date_picker_2">Select Card Expire Date</string>
+    <string name="sel_date3">Select Date</string>
+    <string name="channel_hospital">Hospital</string>
+    <string name="ch_result" />
+    <string name="visitandpay"><![CDATA[Visit & Pay]]></string>
+    <string name="labTests">Lab / Labs</string>
+    <string name="totalLabprices">Total Price</string>
+    <string name="labnames1" />
+    <string name="totalpriceresult" />
+    <string name="totalbutton">Do your Payment</string>
+    <string-array name="dname">
+        <item>Doctor\'s Name</item>
+        <item>Any</item>
+        <item>Dr.Lalith Gunawardhana</item>
+        <item>Dr.S.K.D.Premathilaka</item>
+    </string-array>
+    <string-array name="specialization">
+        <item>Specialization</item>
+        <item>Any</item>
+        <item>Ayurveda</item>
+        <item>Cardiologist</item>
+    </string-array>
+    <string-array name="hospital">
+        <item>Hospital</item>
+        <item>Any</item>
+        <item>Kings Hospital</item>
+        <item>Lanka Hospital</item>
+    </string-array>
+    <string-array name="banks">
+        <item>Select Your Bank</item>
+        <item>BOC</item>
+        <item>HNB</item>
+        <item>Peoples Bank</item>
+    </string-array>
 
 </resources>
