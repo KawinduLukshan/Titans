@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <Spinner
+        android:id="@+id/bank_spinner"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bankcard_no"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/bankcard_no"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bank_spinner" />
+
+    <EditText
+        android:id="@+id/cvv_no"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/cvv_no"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bankcard_no"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/pay_btn"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:onClick="SavePayment"
+        android:text="@string/pay_btn"
+        android:textColor="@color/heddingblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightblue"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toEndOf="@+id/visitandpay"
+        app:layout_constraintTop_toBottomOf="@+id/date_picker_2" />
+
+    <ImageView
+        android:id="@+id/a_imege_2"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/bank_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:srcCompat="@drawable/card" />
+
+    <TextView
+        android:id="@+id/date_picker_2"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/date_picker_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvv_no" />
+
+    <Button
+        android:id="@+id/visitandpay"
+        android:layout_width="184dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/visitandpay"
+        android:textColor="@color/heddingblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightblue"
+        app:cornerRadius="12dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pay_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

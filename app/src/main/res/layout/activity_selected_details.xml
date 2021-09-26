@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedDetails">
+
+    <Button
+        android:id="@+id/channelbtn"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/channelbtn"
+        android:textColor="@color/heddingblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightblue"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdt_result"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/channnel_pname"
+        android:layout_width="178dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/channnel_docname"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cdn_result"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/channel_specilization"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/channel_specilization"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/csp_result"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/a_imege_1"
+        android:layout_width="245dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/channnel_pname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/doctorpic" />
+
+    <TextView
+        android:id="@+id/cdn_result"
+        android:layout_width="189dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/cdn_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/channnel_pname"
+        app:layout_constraintTop_toBottomOf="@+id/a_imege_1" />
+
+    <TextView
+        android:id="@+id/csp_result"
+        android:layout_width="189dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/csp_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdn_result" />
+
+    <EditText
+        android:id="@+id/cdt_result"
+        android:layout_width="369dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/cdt_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/channel_datetime" />
+
+    <TextView
+        android:id="@+id/channel_datetime"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/channel_datetime"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/channel_hospital"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/channel_hospital"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/channel_hospital"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ch_result"
+        app:layout_constraintEnd_toStartOf="@+id/ch_result"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ch_result"
+        android:layout_width="182dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/ch_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/csp_result" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentToYourLabTest">
+
+    <CheckBox
+        android:id="@+id/cBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/cBox12"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox10" />
+
+    <CheckBox
+        android:id="@+id/cBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/cBox"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cBox2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/cBox2"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toEndOf="@+id/cBox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cBox3"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox" />
+
+    <CheckBox
+        android:id="@+id/cBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/cBox4"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox2" />
+
+    <CheckBox
+        android:id="@+id/cBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cBox5"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox3" />
+
+    <CheckBox
+        android:id="@+id/cBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="112dp"
+        android:text="@string/cBox6"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox4" />
+
+    <CheckBox
+        android:id="@+id/cBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cBox7"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox5" />
+
+    <CheckBox
+        android:id="@+id/cBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/cBox8"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox6" />
+
+    <CheckBox
+        android:id="@+id/cBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cBox9"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox7" />
+
+    <CheckBox
+        android:id="@+id/cBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/cBox10"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox8" />
+
+    <CheckBox
+        android:id="@+id/cBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/cBox11"
+        android:textColor="@color/heddingblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:buttonTint="@color/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox9" />
+
+    <Button
+        android:id="@+id/click_bookbtn"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:text="@string/click_bookbtn"
+        android:textColor="@color/heddingblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightblue"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBox12"
+        app:layout_constraintVertical_bias="0.174" />
+</androidx.constraintlayout.widget.ConstraintLayout>

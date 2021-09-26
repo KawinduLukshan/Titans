@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChannelYourDoctor">
+
+    <Spinner
+        android:id="@+id/sel_doctorname"
+        android:layout_width="296dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:entries="@array/dname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sel_hospital"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/hospital"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_doctorname" />
+
+    <EditText
+        android:id="@+id/sel_pname"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/sel_pname"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_date3" />
+
+    <EditText
+        android:id="@+id/sel_age"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/sel_age"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_pname" />
+
+    <EditText
+        android:id="@+id/sel_nic"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/sel_nic"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_age" />
+
+    <EditText
+        android:id="@+id/sel_contactno"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/sel_contactno"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_nic" />
+
+    <Button
+        android:id="@+id/sel_nextbtn"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:onClick="SavePAppointment"
+        android:text="@string/sel_nextbtn"
+        android:textColor="@color/heddingblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightblue"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_contactno" />
+
+    <TextView
+        android:id="@+id/sel_date3"
+        android:layout_width="301dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/sel_date3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sel_hospital" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
