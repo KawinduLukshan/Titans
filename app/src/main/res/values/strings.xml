@@ -136,4 +136,10 @@
         <item>Peoples Bank</item>
     </string-array>
 
+    
+    
+    
+       <string name="app_name">DoctorManagement</string>
+    <string name="btn1" />
+    <string name="Button" />
 </resources>
