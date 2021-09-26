@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//insert data
+//insert details
 
         editText_p_Name = findViewById(R.id.edittext_Name);
         editText_p_Address = findViewById(R.id.edittext_Address);
@@ -61,7 +61,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 }
