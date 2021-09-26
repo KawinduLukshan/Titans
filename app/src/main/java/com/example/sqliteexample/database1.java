@@ -18,8 +18,8 @@ public class database1 extends SQLiteOpenHelper {
     
    //Database Name
     private static final String DATABASE_NAME = "pharmacy_database";
-    
-   //Database Name
+  
+    //Database Name
     private static final String TABLE_NAME = "pharmacy";
     
    //Table columns
@@ -34,6 +34,7 @@ public class database1 extends SQLiteOpenHelper {
     
     //PharmacyModelClass
     //creating table query
+    
     private static final String CREATE_TABLE = "create table " + TABLE_NAME +"("+ID+
             " INTEGER PRIMARY KEY AUTOINCREMENT," + Name + " TEXT NOT NULL,"+Address+" TEXT NOT NULL,"+Mobile+" TEXT NOT NULL,"+PharmacyName+" TEXT NOT NULL,"+PrescriptionName+" TEXT NOT NULL);";
     
