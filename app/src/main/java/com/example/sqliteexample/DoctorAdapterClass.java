@@ -52,7 +52,7 @@ public class DoctorAdapterClass extends RecyclerView.Adapter<DoctorAdapterClass.
 
 
 
-
+      //Edit
 
         holder.button_Edit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +73,7 @@ public class DoctorAdapterClass extends RecyclerView.Adapter<DoctorAdapterClass.
                 context.startActivity(((Activity) context).getIntent());
             }
         });
-
+       //Delete
         holder.button_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,6 +102,7 @@ public class DoctorAdapterClass extends RecyclerView.Adapter<DoctorAdapterClass.
 
         Button button_Edit;
         Button button_delete;
+        //View
 
         public ViewHolderDoctor(@NonNull View itemView) {
             super(itemView);
