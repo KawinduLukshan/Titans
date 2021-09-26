@@ -18,7 +18,7 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
     }
-
+//button connecting
     public void openMain3(View view){
         startActivity(new Intent(this, DoctorManagement.class  ));
     }
