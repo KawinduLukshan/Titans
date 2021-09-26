@@ -10,7 +10,8 @@ import java.util.List;
 
 public class database1 extends SQLiteOpenHelper {
 
-
+//SQLlite
+//Database
     
    //Database version
     private static final int DATABASE_VERSION = 5;
