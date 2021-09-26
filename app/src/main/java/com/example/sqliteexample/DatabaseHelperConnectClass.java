@@ -88,8 +88,8 @@ public class DatabaseHelperConnectClass extends SQLiteOpenHelper {
         cursor.close();
         return storeDoctor;
     }
-
-    public void updateDoctor(DoctorModelClass doctorModelClass){
+    //update Doctor
+     public void updateDoctor(DoctorModelClass doctorModelClass){
         ContentValues contentValues = new ContentValues();
         contentValues.put(DatabaseHelperConnectClass.NAME,doctorModelClass.getName());
         contentValues.put(DatabaseHelperConnectClass.EMAIL,doctorModelClass.getEmail());
@@ -104,7 +104,7 @@ public class DatabaseHelperConnectClass extends SQLiteOpenHelper {
         sqLiteDatabase.update(TABLE_NAME,contentValues,ID + " = ?" , new String[]
                 {String.valueOf(doctorModelClass.getId())});
     }
-
+    //Delete Doctor
     public void deleteDoctor(int id){
         sqLiteDatabase = this.getWritableDatabase();
         sqLiteDatabase.delete(TABLE_NAME, ID + " = ? ", new String[]
