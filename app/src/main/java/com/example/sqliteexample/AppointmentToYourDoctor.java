@@ -93,7 +93,7 @@ public class AppointmentToYourDoctor extends AppCompatActivity implements Adapte
         String text =parent.getItemAtPosition(position).toString();
        // Toast.makeText(parent.getContext(),text,Toast.LENGTH_SHORT).show();
     }
-
+    //adapter
     @Override
     public void onNothingSelected(AdapterView<?> parent) { }
 }
