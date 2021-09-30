@@ -1,4 +1,4 @@
-package com.example.e_channelling;
+package com.example.sqliteexample;
 
 import android.os.Bundle;
 import android.widget.Toast;
