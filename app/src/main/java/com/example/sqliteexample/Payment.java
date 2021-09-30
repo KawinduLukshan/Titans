@@ -1,4 +1,4 @@
-package com.example.echanneling_system;
+package com.example.sqliteexample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
