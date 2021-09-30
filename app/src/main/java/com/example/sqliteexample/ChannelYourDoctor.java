@@ -93,7 +93,7 @@ public class ChannelYourDoctor extends AppCompatActivity implements AdapterView.
     public void SavePAppointment(View view){
         PA_DBHelper paDbHelper = new PA_DBHelper(this);
         paDbHelper.addappointment(sel_pname.getText().toString(), sel_age.getText().toString(), sel_nic.getText().toString(),
-                sel_contactno.getText().toString(), sel_date3.getText().toString());
+                sel_contactno.getText().toString(), sel_date3.getText().toString(), sel_doctorname.getItemAtPosition(sel_doctorname.getSelectedItemPosition()).toString(), sel_hospital.getItemAtPosition(sel_hospital.getSelectedItemPosition()).toString());
 
         String c_name = sel_pname.getText().toString();
         String c_age = sel_age.getText().toString();
