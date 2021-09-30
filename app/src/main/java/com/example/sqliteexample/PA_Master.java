@@ -1,4 +1,4 @@
-package com.example.echanneling_system.DataBase;
+package com.example.sqliteexample.DataBase;
 
 import android.provider.BaseColumns;
 
