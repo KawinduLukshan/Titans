@@ -1,4 +1,4 @@
-package com.example.echanneling_system;
+package com.example.sqliteexample;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
