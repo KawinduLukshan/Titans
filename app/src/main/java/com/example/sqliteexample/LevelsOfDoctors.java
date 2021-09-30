@@ -1,4 +1,4 @@
-package com.example.doctormanagement;
+package com.example.sqliteexample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
