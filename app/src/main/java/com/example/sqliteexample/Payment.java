@@ -30,6 +30,7 @@ public class Payment extends AppCompatActivity implements AdapterView.OnItemSele
     EditText bankcardno,cvv_no;
     TextView date_picker_2;
     DatePickerDialog.OnDateSetListener setListener2;
+    Spinner spinner_bnk;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,7 @@ public class Payment extends AppCompatActivity implements AdapterView.OnItemSele
         getSupportActionBar().setTitle("Pay for the Appointment");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Spinner spinner_bnk = findViewById(R.id.bank_spinner);
+        spinner_bnk = findViewById(R.id.bank_spinner);
         ArrayAdapter<CharSequence> adapter_bnk = ArrayAdapter.createFromResource(this,R.array.banks,R.layout.myselected_item);
         adapter_bnk.setDropDownViewResource(R.layout.mydropdown_item);
         spinner_bnk.setAdapter(adapter_bnk);
@@ -97,7 +98,7 @@ public class Payment extends AppCompatActivity implements AdapterView.OnItemSele
 
     public void SavePayment(View view) {
         PA_DBHelper payhelper = new PA_DBHelper(this);
-        payhelper.appointmentpayment(bankcardno.getText().toString(), cvv_no.getText().toString(), date_picker_2.getText().toString());
+        payhelper.appointmentpayment(spinner_bnk.getItemAtPosition(spinner_bnk.getSelectedItemPosition()).toString(), bankcardno.getText().toString(), cvv_no.getText().toString(), date_picker_2.getText().toString());
 
         String cardno = bankcardno.getText().toString();
         String cvvno = cvv_no.getText().toString();
