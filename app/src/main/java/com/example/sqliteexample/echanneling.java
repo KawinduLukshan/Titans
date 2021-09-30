@@ -22,14 +22,14 @@ public class echanneling extends AppCompatActivity {
     }
     //User Management button
     public void openpart2(View view){
-        Intent intent_openpart1 = new Intent(this,Patient_SIGN_IN.class);
-        startActivity(intent_openpart1);
+        Intent intent_openpart2 = new Intent(this,Patient_SIGN_IN.class);
+        startActivity(intent_openpart2);
     }
     
     //Pharmacy/Lab button
-    //public void openpart1(View view){
-      //  Intent intent_openpart3 = new Intent(this,MainActivity.class);
-        //startActivity(intent_openpart1);
+    public void openpart3(View view){
+        Intent intent_openpart3 = new Intent(this,Main33Activity.class);
+        startActivity(intent_openpart3);
     }
     
     //Doctor Management button
