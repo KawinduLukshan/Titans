@@ -1,4 +1,4 @@
-package com.example.e_channelling;
+package com.example.sqliteexample;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
