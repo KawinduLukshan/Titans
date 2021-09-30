@@ -16,9 +16,9 @@ public class echanneling extends AppCompatActivity {
         setContentView(R.layout.activity_echanneling);
     }
     //Channel Doctor button
-    //public void openpart1(View view){
-      //  Intent intent_openpart1 = new Intent(this,MainActivity.class);
-        //startActivity(intent_openpart1);
+    public void openpart1(View view){
+       Intent intent_openpart1 = new Intent(this,AppointmentMain.class);
+       startActivity(intent_openpart1);
     }
     //User Management button
     //public void openpart2(View view){
