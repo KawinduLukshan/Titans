@@ -1,4 +1,4 @@
-package com.example.echanneling_system;
+package com.example.sqliteexample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.echanneling_system.DataBase.PA_DBHelper;
+import com.example.sqliteexample.DataBase.PA_DBHelper;
 
 public class ConfirmationAppointment extends AppCompatActivity {
 
