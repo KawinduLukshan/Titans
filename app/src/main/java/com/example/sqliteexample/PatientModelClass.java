@@ -1,4 +1,4 @@
-package com.example.e_channelling;
+package com.example.sqliteexample;
 public class PatientModelClass {
 
     Integer nic;
