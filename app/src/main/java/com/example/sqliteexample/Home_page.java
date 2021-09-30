@@ -1,4 +1,4 @@
-package com.example.e_channelling;
+package com.example.sqliteexample;
 
         import androidx.appcompat.app.AppCompatActivity;
         import android.content.Intent;
